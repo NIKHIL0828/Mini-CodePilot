@@ -70,8 +70,8 @@ export default function PromptPanel({
             ref={promptRef}
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
-            placeholder="Describe the code you need... 
-            eg: 'A Python function to reverse a string'"
+              placeholder={`Describe the code you need...
+eg: "A Python function to reverse a string"`}
             className="flex-1 w-full p-4 rounded-lg bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 dark:focus:border-indigo-500 outline-none resize-none text-sm leading-relaxed transition-all placeholder:text-slate-400"
           />
         </div>
